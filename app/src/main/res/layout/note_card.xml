@@ -1,0 +1,39 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="170dp"
+    android:id="@+id/constraintLayout"
+    android:background="@drawable/note_card_background"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_height="200dp">
+
+    <TextView
+        android:id="@+id/noteHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitoblack"
+        android:text="Cerebral palsy sport"
+        android:textColor="#595550"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/noteContent"
+        android:layout_marginTop="5dp"
+        android:textColor="#595550"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:textStyle="normal"
+        android:layout_height="wrap_content"
+        android:text="Cerebral palsy sport classification is a classification system used by sports that include people with cerebral palsy (CP) with different degrees of severity to compete fairly against each..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noteHeading"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

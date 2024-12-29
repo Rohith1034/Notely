@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "977548719277",
+    "firebase_url": "https://notely-fdf08-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "notely-fdf08",
+    "storage_bucket": "notely-fdf08.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977548719277:android:263cd442043585c1aa4224",
+        "android_client_info": {
+          "package_name": "com.notes.notely"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYl7kd_Vf7XTlHvNtaa3he84VFps7_UeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

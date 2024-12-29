@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NotelyNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#d9614c</item>
+        <item name="colorPrimaryDark">#d9614c</item>
+        <item name="android:statusBarColor">#f8eee2</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#d9614c</item>
+        <item name="colorPrimaryDark">#d9614c</item>
+        <item name="android:statusBarColor">#f8eee2</item>
+        <item name="colorAccent">#403b36</item>
+    </style>
+</resources>
